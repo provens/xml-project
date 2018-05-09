@@ -1,0 +1,25 @@
+<!ELEMENT products (item*)>
+<!ELEMENT item (id?, name, image, hardware, software?,price)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT image(url)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT hardware(processor, screen, disc, graphics ,ram)>
+<!ELEMENT graphics(producer?,model?)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT processor (#PCDATA)>
+<!ELEMENT screen (#PCDATA)>
+<!ELEMENT disc (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT software (system?, antivirus?)>
+<!ELEMENT system (#PCDATA)>
+<!ELEMENT antivirus (#PCDATA)>
+<!ELEMENT price (#PCDATA) #REQUIRED>
+
+<!ATTLIST processor
+	producer CDATA #REQUIRED (#PCDATA)>
+
+
+
+

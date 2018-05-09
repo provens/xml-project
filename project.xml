@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE products SYSTEM "project.dtd">
+<?xml-stylesheet type="text/css" href=""?>
+<?xml-stylesheet type="text/xsl" href="xslt.xsl"?>
+<products xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!-- 1 -->
+	<item type="laptop">
+		<id>i1</id>
+		<name>Lenovo D220</name>
+		<image>
+			<url>https://cdn.pixabay.com/photo/2016/01/19/15/05/computer-1149148_960_720.jpg</url>
+		</image>
+		<hardware>
+			<processor producer="Intel">i5 4900k</processor>
+			<screen matix="LCD">17"</screen>
+			<disc>2 TB</disc>
+			<graphics>
+				<producer>AMD</producer>
+				<model>330x</model>
+			</graphics>
+			<ram producer="Hyper">8 GB</ram>
+		</hardware>
+		<software>
+			<system producer="Microsoft">Windows 10</system>
+			<antivirus>ESET</antivirus>
+		</software>
+		<price>300$</price>
+	</item>
+	<!-- 2 -->
+	<item type="laptop">
+		<id>i2</id>
+		<name>Acer L100</name>
+		<image>
+			<url>https://cdn.pixabay.com/photo/2014/12/22/19/59/macbook-577758_960_720.jpg</url>
+		</image>
+		<hardware>
+			<processor producer="Intel">i7 2200</processor>
+			<screen matix="TFT">15"</screen>
+			<disc>4 TB</disc>
+			<graphics>
+				<producer>Nvidia</producer>
+				<model>200m</model>
+			</graphics>
+			<ram producer="Adata">16 GB</ram>
+		</hardware>
+		<software>
+			<system producer="Microsoft">Windows 10</system>
+			<antivirus>Norton</antivirus>
+		</software>
+		<price>1000$</price>
+	</item>
+	<!-- 3 -->
+	<item type="tablet">
+		<id>i3</id>
+		<name>Lenovo Yoga 2</name>
+		<image>
+			<url>https://cdn.pixabay.com/photo/2015/01/21/14/14/ipad-606764_960_720.jpg</url>
+		</image>
+		<hardware>
+			<processor producer="Foxconn">Snapdragon 820</processor>
+			<screen matix="TFT">7"</screen>
+			<disc>32 GB</disc>
+			<graphics>
+				<producer>Mediatek</producer>
+				<model>G220</model>
+			</graphics>
+			<ram producer="Foxconn">4 GB</ram>
+		</hardware>
+		<software>
+			<system producer="Google">Android KitCat</system>
+			<antivirus> </antivirus>
+		</software>
+		<price>100$</price>
+	</item>
+	<!-- 4 -->
+	<item type="tablet">
+		<id>i4</id>
+		<name>Dragon Master XP</name>
+		<image>
+			<url>https://cdn.pixabay.com/photo/2016/03/26/13/09/laptop-1280536_960_720.jpg</url>
+		</image>
+		<hardware>
+			<processor producer="Foxconn">Snapdragon 100</processor>
+			<screen matix="LED">10"</screen>
+			<disc>16 GB</disc>
+			<graphics>
+				<producer>Mediatek</producer>
+				<model>G220</model>
+			</graphics>
+			<ram producer="Foxconn">8 GB</ram>
+		</hardware>
+		<software>
+			<system producer="Xiaomi">Wild Card</system>
+			<antivirus> </antivirus>
+		</software>
+		<price>98$</price>
+	</item>
+	<!-- 5 -->
+	<item type="desktop">
+		<id>i5</id>
+		<name>Dell Inspiron 800</name>
+		<image>
+			<url>https://cdn.pixabay.com/photo/2017/10/27/16/39/computer-2894850_960_720.png</url>
+		</image>
+		<hardware>
+			<processor producer="Intel">i5 4900k</processor>
+			<screen matix="LED">24"</screen>
+			<disc>4 TB</disc>
+			<graphics>
+				<producer>Nvidia</producer>
+				<model>1080Ti</model>
+			</graphics>
+			<ram producer="Hyper">32 GB</ram>
+		</hardware>
+		<software>
+			<system producer="Linux">Debian 9</system>
+			<antivirus>Comodo</antivirus>
+		</software>
+		<price>699$</price>
+	</item>
+	<!-- 6 -->
+	<item type="laptop">
+		<id>i6</id>
+		<name>Lenovo XGame 500</name>
+		<image>
+			<url>https://cdn.pixabay.com/photo/2018/01/14/13/23/hacker-3081816_960_720.jpg</url>
+		</image>
+		<hardware>
+			<processor producer="Intel">i5 4960k</processor>
+			<screen matix="LCD">17"</screen>
+			<disc>1 TB</disc>
+			<graphics>
+				<producer>AMD</producer>
+				<model>Radeon 200M</model>
+			</graphics>
+			<ram producer="Hyper">16 GB</ram>
+		</hardware>
+		<software>
+			<system producer="Microsoft">Windows 8.1</system>
+			<antivirus>ESET</antivirus>
+		</software>
+		<price>200$</price>
+	</item>
+	<!-- 7 -->
+	<item type="laptop">
+		<id>i7</id>
+		<name>HP Portable 2</name>
+		<image>
+			<url>https://cdn.pixabay.com/photo/2014/07/30/22/53/notebook-405755_960_720.jpg</url>
+		</image>
+		<hardware>
+			<processor producer="Intel">i3 200</processor>
+			<screen matix="TFT">15"</screen>
+			<disc>1 TB</disc>
+			<graphics>
+				<producer>AMD</producer>
+				<model>Radeon 200M</model>
+			</graphics>
+			<ram producer="HP">8 GB</ram>
+		</hardware>
+		<software>
+			<system producer="Microsoft">Windows 10</system>
+			<antivirus>AVG</antivirus>
+		</software>
+		<price>360$</price>
+	</item>
+	<!-- 8 -->
+	<item type="tablet">
+		<id>i8</id>
+		<name>Kiano Porfly</name>
+		<image>
+			<url>https://cdn.pixabay.com/photo/2015/06/24/15/45/ipad-820272_960_720.jpg</url>
+		</image>
+		<hardware>
+			<processor producer="Foxconn">Snapdragon 820</processor>
+			<screen matix="TFT">11"</screen>
+			<disc>64 GB</disc>
+			<graphics>
+				<producer>Mediatek</producer>
+				<model>G220</model>
+			</graphics>
+			<ram producer="Hyper">4 GB</ram>
+		</hardware>
+		<software>
+			<system producer="Google">Android JellyBean</system>
+			<antivirus> </antivirus>
+		</software>
+		<price>178$</price>
+	</item>
+	<!-- 9 -->
+	<item type="desktop">
+		<id>i9</id>
+		<name>HP Inspire X10</name>
+		<image>
+			<url>https://cdn.pixabay.com/photo/2013/10/01/16/55/pc-189255_960_720.png</url>
+		</image>
+		<hardware>
+			<processor producer="AMD">Ryzen 500</processor>
+			<screen matix="LED">30"</screen>
+			<disc>8 TB</disc>
+			<graphics>
+				<producer>AMD</producer>
+				<model>X220</model>
+			</graphics>
+			<ram producer="Adata">32 GB</ram>
+		</hardware>
+		<software>
+			<system producer="Apple">OS X Rodeo</system>
+			<antivirus>Apple Care</antivirus>
+		</software>
+		<price>1299$</price>
+	</item>
+	<!-- 10 -->
+	<item type="desktop">
+		<id>i10</id>
+		<name>Mac Pro 25"</name>
+		<image>
+			<url>https://cdn.pixabay.com/photo/2017/12/06/14/52/screen-3001951_960_720.png</url>
+		</image>
+		<hardware>
+			<processor producer="Intel">i5 4960k</processor>
+			<screen matix="LED">25"</screen>
+			<disc>5 TB</disc>
+			<graphics>
+				<producer>Nvidia</producer>
+				<model>Tegra</model>
+			</graphics>
+			<ram producer="Intel">16 GB</ram>
+		</hardware>
+		<software>
+			<system producer="Apple">OS X Rodeo</system>
+			<antivirus>Apple Care</antivirus>
+		</software>
+		<price>999$</price>
+	</item>
+	
+
+</products>
